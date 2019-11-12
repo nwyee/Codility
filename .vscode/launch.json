@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Palindrome",
+            "request": "launch",
+            "mainClass": "Palindrome",
+            "projectName": "Codility_4c51bee2"
+        }
+    ]
+}
