@@ -15,4 +15,7 @@ Codility lessons solved in Java:
 	- PermMissingElem
 - Counting Elements
 	- PermCheck
+	- Missing Integer
+	- Max Counters
+	- Frog River One
 

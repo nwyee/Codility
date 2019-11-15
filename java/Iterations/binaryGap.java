@@ -18,8 +18,30 @@ Complexity:
 
 expected worst-case time complexity is O(log(N));
 expected worst-case space complexity is O(1).
+
+https://app.codility.com/c/run/training9YWAD5-RZD/
 */
 public class binaryGap{
+    
+    public int solution_v2(int N) {
+        // write your code in Java SE 8
+        int gap = 0;
+        int count = 0;
+        boolean found = false;
+        while(N != 0) {
+            if( (N & 1) == 0 ) {
+                count ++;
+            }else{
+                
+                if(!found) found = true;
+                else
+                    gap = Math.max(gap, count);
+                count = 0;
+            }
+            N >>= 1;
+        }
+        return gap;
+    }
 
 	public int solution(int N) {
         
